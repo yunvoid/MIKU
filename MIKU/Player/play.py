@@ -16,11 +16,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from MIKU.config import ARQ_API_KEY
-from MIKU.config import BOT_NAME as bn
-from MIKU.config import DURATION_LIMIT
-from MIKU.config import UPDATES_CHANNEL as updateschannel
-from MIKU.config import que
+from config import ARQ_API_KEY
+from config import BOT_NAME as bn
+from config import DURATION_LIMIT
+from config import UPDATES_CHANNEL as updateschannel
+from config import que
 from MIKU.function.admins import admins as a
 from MIKU.helpers.admins import get_administrators
 from MIKUt.helpers.channelmusic import get_chat_id
